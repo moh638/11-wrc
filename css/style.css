@@ -91,16 +91,23 @@ body{
 }
 
 .navbar form{
-  padding-left: 210px;
-}
+/*  padding-left: 210px;
+*/}
 
 .btn-outline-success {
     color: #fff;
     border-color: #fff;
     border:2px solid;
 }
+.btn-outline-success:hover {
+    background-color: #ffcb05;
+    border-color: #fff;
+    border:2px solid;
+}
+
+
+
 nav ul{
-font-size: 25px;
 font-weight: bold;
 color: #fff;
 
@@ -113,6 +120,14 @@ color: #fff;
 .navbar-brand{
     font-size: ;
     transition: all 1s ease;
+      border-radius: 50%;
+
+}
+
+.navbar-brand img{
+   
+      border-radius: 50%;
+
 }
 
 .navbar-brand:hover{
@@ -198,13 +213,22 @@ box-shadow: rgba(0, 0, 0, .05) 0 3px 3px, rgba(0, 0, 0, .05) 0 4px 4px;
 
 
 
-.logo  img{
+.logo  .leftimg{
 width: 140px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   float: left;
+  margin-top: 0px;
   margin-left: 70px;
+  border-radius: 50%;
+  margin-right: 30px;
+
+}
+.logo  img{
+width: 158px;
+ margin-top: -33px;
+  margin-left: 30px;
   border-radius: 50%;
   margin-right: 30px;
 
